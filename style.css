@@ -54,13 +54,9 @@ body {
 
 h2,
 p {
-    margin-top: 10px;
-}
-
-p {
+    margin-top: 10px; 
     font-size: 14px;
 }
-
 .a {
     margin-top: 20px;
     display: flex;
