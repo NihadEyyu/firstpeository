@@ -1,96 +1,121 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html,body{
-    width: 100%;
-    height: 100vh;
-}
-body{
-    overflow: hidden;
+
+html,
+body {
+    min-height: 100vh;
 }
 
-.container{
+.container {
     display: flex;
-  
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 25px;
 }
-.pic1, .pic2, .pic3{
+
+.pic1,
+.pic2,
+.pic3 {
     padding-top: 20px;
-    width: 33%;
-    margin-left:50px;
     font-size: 20px;
+    width: 33%;
 }
-@media (max-width:768){
-   .container{
-    flex-direction: column;
-   }
-    .pic1, .pic2, .pic3{
-        width: 90%;
-        
+
+.container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .container {
+        flex-direction: column;
+        padding-bottom: 170px;
+    }
+
+    .pic1,
+    .pic2,
+    .pic3 {
+        width: 100%;
+
     }
 }
 
-.foot{
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  background-color:rgb(231, 215, 215);
-  width: 100%;
+.foot {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(231, 215, 215);
+    width: 100%;
 }
-h2, p{
+
+h2,
+p {
     margin-top: 10px;
 }
-p{
+
+p {
     font-size: 14px;
 }
 
-.a{
+.a {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 121, 219);
     border-radius: 5px;
-    width: 75%;
+    width: 100%;
     height: 30px;
-    
+
 }
-.a:hover{
+
+.a:hover {
     background-color: green;
     transition: 1s;
-    
+
 }
-a:link{
+
+a:link {
     text-decoration: none;
 }
 
-.date{
-    padding-top:20px;
-    
+.date {
+    padding-top: 20px;
+
 }
 
 .mail {
     margin-top: 20px;
-   
+
 }
-.number{
-    padding-bottom:  20px;
-    
+
+.number {
+    padding-bottom: 20px;
+
 }
-.date, .mail, .number{
+
+.date,
+.mail,
+.number {
     margin-left: 10px;
     color: grey;
 }
 
-.rigth{
-    display:flex;
+.rigth {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
     border-radius: 20px;
-    
+
 }
- .vk, .fb{
-    margin-left:3px;
+
+.vk,
+.fb {
+    margin-left: 3px;
 }
+
