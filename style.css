@@ -55,7 +55,9 @@ body {
 h2,
 p {
     margin-top: 10px; 
-    font-size: 14px;
+}
+p{
+    font-size:14px;
 }
 .a {
     margin-top: 20px;
